@@ -1,45 +1,72 @@
 # AZ-304: Design Infrastructure (25-30%)
 
 ## Design a compute solution
-- recommend a solution for compute provisioning
-- determine appropriate compute technologies, including virtual machines, App Services,
-Service Fabric, Azure Functions, Windows Virtual Desktop, and containers
-- recommend a solution for containers
-  - AKS versus ACI and the configuration of each one
-- recommend a solution for automating compute management
+- Recommend a solution for compute provisioning
+- Determine appropriate compute technologies, including:
+  - Virtual machines
+  - App Services
+  - Service Fabric
+  - Azure Functions
+  - Windows Virtual Desktop
+  - Batch
+  - HPC
+  - Containers
+- Recommend a solution for containers
+- Recommend a solution for automating compute management
 
 ## Design a network solution
-- recommend a solution for network addressing and name resolution
-- recommend a solution for network provisioning
-- recommend a solution for network security
-  - private endpoints
+- Recommend a network architecture:
+  - Hub and spoke
+  - Virtual WAN
+- Recommend a solution for network addressing and name resolution
+- Recommend a solution for network provisioning
+- Recommend a solution for network security
+  - Private Link
   - Firewalls
   - Gateways
-- recommend a solution for network connectivity to the Internet, on-premises networks,
-and other Azure virtual networks
-- recommend a solution for automating network management
-- recommend a solution for load balancing and traffic routing
+  - Network segmentation
+    - Perimeter networks
+    - DMZs
+    - NVAs
+- Recommend a solution for network connectivity to:
+  - The Internet
+  - On-premises networks
+  - Other Azure virtual networks
+- Recommend a solution for automating network management
+- Recommend a solution for load balancing and traffic routing
 
 ## Design an application architecture
-- recommend a microservices architecture including Event Grid, Event Hubs, Service Bus,
-Storage Queues, Logic Apps, Azure Functions, and webhooks
-- recommend an orchestration solution for deployment of applications including ARM
-templates, Logic Apps, or Azure Functions
-  - select an automation method
-  - choose which resources or lifecycle steps will be automated
-  - design integration with other sources such as an ITSM solution
-  - recommend a solution for monitoring automation
-- recommend a solution for API integration
-  - design an API gateway strategy
-  - determine policies for internal and external consumption of APIs
-  - recommend a hosting structure for API management
-  - recommend when and how to use API Keys
+- Recommend a microservices architecture including:
+  - Event Grid
+  - Event Hubs
+  - Service Bus
+  - Azure Queue Storage
+  - Logic Apps
+  - Azure Functions
+  - Service Fabric
+  - AKS
+  - Azure App Configuration
+  - Webhooks
+- Recommend an orchestration solution for deployment and maintenance of application including:
+  - ARM templates
+  - Azure Automation
+  - Azure Pipelines
+  - Logic Apps
+  - Azure Functions
+- Recommend a solution for API integration
 
 ## Design migrations
-- assess and interpret on-premises servers, data, and applications for migration
-- recommend a solution for migrating applications and VMs
-- recommend a solution for migration of databases
-  - determine migration scope, including redundant, related, trivial, and outdated
-data
+- Assess and interpret on-premises servers, data, and applications for migration
+- Recommend a solution for migrating applications and VMs
+- Recommend a solution for migration of databases
+- Determine migration scope, including:
+  - Redundant
+  - Related
+  - Trivial
+  - Outdated data
+- Recommend a solution for Migrating Data:
+  - Storage Migration Service
+  - Azure Data Box
+  - Azure File Sync-based migration to hybrid file server
 
 [Return to Table of Contents](README.md)
