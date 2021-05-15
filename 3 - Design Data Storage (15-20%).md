@@ -1,25 +1,25 @@
 # AZ-304: Design Data Storage (15-20%)
 
 ## Design a solution for databases
-- select an appropriate data platform based on requirements
-- recommend database service tier sizing
-- recommend a solution for database scalability
-- recommend a solution for:
-  - encrypting data at rest
-  - data in transmission
-  - data in use
+- Select an appropriate data platform based on requirements
+- Recommend database service tier sizing
+- Recommend a solution for database scalability
+- Recommend a solution for:
+  - Encrypting data at rest
+  - Data in transmission
+  - Data in use
 
 ## Design data integration
-- recommend a data flow to meet business requirements
-- recommend a solution for data integration, including:
+- Recommend a data flow to meet business requirements
+- Recommend a solution for data integration, including:
   - Azure Data Factory
-  - Azure Data Bricks
+  - Azure Databricks
   - Azure Data Lake
   - Azure Synapse Analytics
 
 ## Select an appropriate storage account
-- choose between storage tiers
-- recommend a storage access solution
-- recommend storage management tools
+- Choose between storage tiers
+- Recommend a storage access solution
+- Recommend storage management tools
 
 [Return to Table of Contents](README.md)
