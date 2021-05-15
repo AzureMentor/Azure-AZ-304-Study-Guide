@@ -48,14 +48,18 @@
   - [Just In Time (JIT) access](https://docs.microsoft.com/en-us/azure/security-center/security-center-just-in-time)
 
 ## Design governance
-- Recommend a strategy for tagging
-- Recommend a solution for using Azure Policy
-- Recommend a solution for using Azure Blueprints
-- Recommend a solution that leverages Azure Resource Graph
+- [Recommend a strategy for Tagging](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources)
+- [Recommend a solution for using Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/overview)
+  - [Tutorial: Create and manage policies to enforce compliance](https://docs.microsoft.com/en-us/azure/governance/policy/tutorials/create-and-manage)
+- [Recommend a solution for using Azure Blueprints](https://docs.microsoft.com/en-us/azure/governance/blueprints/overview)
+  - [Quickstart: Define and assign a blueprint in the portal](https://docs.microsoft.com/en-us/azure/governance/blueprints/create-blueprint-portal)
+- [Recommend a solution that leverages Azure Resource Graph](https://docs.microsoft.com/en-ca/azure/governance/resource-graph/overview)
 
 ## Design security for applications
-- Recommend a solution that includes KeyVault
-- Recommend a solution that includes Managed Identities
-- Recommend a solution for integrating applications into Azure AD
+- [Recommend a solution that includes **KeyVault**](https://docs.microsoft.com/en-us/azure/key-vault/general/overview)
+  - [Azure Key Vault keys, secrets and certificates overview](https://docs.microsoft.com/en-us/azure/key-vault/general/about-keys-secrets-certificates)
+- [Recommend a solution that includes **Managed Identities**](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
+  - [Use a Windows VM system-assigned managed identity to access Resource Manager](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/tutorial-windows-vm-access-arm)
+- [Recommend a solution for **integrating applications into Azure AD**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications)
 
 [Return to Table of Contents](README.md)
